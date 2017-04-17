@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>松鼠金融</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--导航开始-->
+	<div class="header header1">
+		<div class="inner">
+			<h1>
+				<a href="index.html"><img src="images/logo1.png" alt=""></a>
+			</h1>
+			<div class="right">
+				<ul class="nav">
+					<li class="cur">
+						<a href="prepaid.html">我的账户</a>
+					</li>
+				</ul>
+				<div class="login">
+					<a href="javascript:;" class="sign_in">18600790830@163.com</a>
+					|
+					<a href="javascript:;" class="sign_up">注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--导航结束-->
+	<!--我的账户转账页面开始-->
+	<div id="container">
+		<div class="transfer">
+			<div class="demo">
+				<div class="top">
+					<div class="user">
+						<div class="touxiang">
+							<img src="images/touxiang.png" alt="">
+						</div>
+						<p>18607590830@163.com</p>
+					</div>
+					<div class="balance">
+						<p>账户余额</p>
+						<b>88.66</b><em>¥</em>
+					</div>
+					<div class="songshubi">
+						<p>松鼠币</p>
+						<b>23.00</b><em>¥</em>
+					</div>
+					<p class="perfect"><a href="information.html">完善资料 ></a></p>
+				</div>
+				<div class="list">
+					<a href="prepaid.html">充值</a>
+					<a href="currency.html">提币</a>
+					<a href="transfer.html" class="cur">转账</a>
+				</div>
+				<div class="detail">
+					<div class="row">
+						<label>请输入转账数量：</label>
+						<input type="text" placeholder="当前可转入88888" value=""> 枚
+					</div>
+					<div class="row">
+						<label>请输入对方账户：</label>
+						<input type="text" value=""> 
+					</div>
+					<div class="row">
+						<div id="payPassword_container" class="alieditContainer clearfix" data-busy="0">
+							<label for="i_payPassword" class="i-block">支付密码：</label>
+							<div class="i-block" data-error="i_error">
+								<div class="i-block six-password">
+									<input class="i-text sixDigitPassword" id="payPassword_rsainput" type="password" autocomplete="off" required="required" value="" name="payPassword_rsainput" data-role="sixDigitPassword" tabindex="" maxlength="6" minlength="6" aria-required="true">
+									<div tabindex="0" class="sixDigitPassword-box" style="width: 180px;">
+										<i style="width: 29px; border-color: transparent;" class=""><b style="visibility: hidden;"></b></i>
+										<i style="width: 29px;"><b style="visibility: hidden;"></b></i>
+										<i style="width: 29px;"><b style="visibility: hidden;"></b></i>
+										<i style="width: 29px;"><b style="visibility: hidden;"></b></i>
+										<i style="width: 29px;"><b style="visibility: hidden;"></b></i>
+										<i style="width: 29px;"><b style="visibility: hidden;"></b></i>
+										<span style="width: 29px; left: 0px; visibility: hidden;" id="cardwrap" data-role="cardwrap"></span>
+									</div>
+								</div>
+								<span class="error">交易密码输入错误，请重新输入</span>
+							</div>
+						</div>
+						<p class="tishi">请输入6位数字交易密码</p>
+					</div>
+					<div class="row">
+						<input type="submit" class="sub" value="确认转账">
+					</div>
+				</div>
+			</div>
+			<div class="choice_box">
+				<div class="choice">
+					<span>状态选择：</span>
+					<a href="javascript:;">最近交易记录</a>
+					<a href="javascript:;" class="cur">最近一周</a>
+					<a href="javascript:;">最近一月</a>
+					<a href="javascript:;">最近三月</a>
+				</div>
+				<div class="choice">
+					<span>类型选择：</span>
+					<a href="javascript:;">全部记录</a>
+					<a href="javascript:;">购币记录</a>
+					<a href="javascript:;" class="cur">提币记录</a>
+					<a href="javascript:;">转账记录</a>
+				</div>
+			</div>
+			<div class="tab">
+				<div class="thead">
+					<ul>
+						<li>分类</li>
+						<li>创建时间</li>
+						<li>名称 | 对方 | 交易号</li>
+						<li>数量</li>
+						<li>状态</li>
+					</ul>
+				</div>
+				<div class="tbody">
+					<ul class="wrap">
+						<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="fail">交易失败</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="fail">交易失败</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="success">交易成功</li>
+							</ul>
+				    	</li>
+				    	<li>
+							<ul>
+								<li>提币</li>
+								<li><p>2016-09-05</p><p class="gray">18:06</p></li>
+								<li><p class="bt">火车票</p><p class="gray">中国铁路总公司资金清算中心|流水号<a href="javascript:;" title="210612425554888">2016...939</a></p></li>
+								<li>+800..00</li>
+								<li class="fail">交易失败</li>
+							</ul>
+				    	</li>
+					</ul>
+					<div class="page">
+						<a href="" style="display:none;"><<首页</a>
+						<a href="" style="display:none;"><上一页</a>
+						<span class="num">
+							<a href="javascript:;" class="cur">1</a>
+							<a href="javascript:;">2</a>
+						</span>
+						<a href="javascript:;">下一页></a>
+						<a href="javascript:;">尾页>></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--我的账户转账页面结束-->
+	</div>
+	<!--页面底部开始-->
+	<div class="footer1">
+		<p>电话：010-0000000</p>
+		<p>邮箱：xxx@xxx.com</p>
+		<p>Copyright 2015-2016  松鼠金融  ALL Rights Reserved Powered by  松鼠金融有限</p>
+	</div>
+	<!--页面底部结束-->
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/jquery-validate.js" type="text/javascript"></script>
+<script type="text/javascript">
+var _formPay = $('#form_paypsw');
+				
+			_formPay.validate({
+					rules : {
+						'payPassword_rsainput':{
+							'minlength':6,
+							'maxlength':6,
+							required:true,
+							digits : true,
+							numPassword : true,
+							echoNum :true
+						}
+					},
+					
+					messages:{
+						'payPassword_rsainput':{
+							'required' : '<i class="icon icon-attention icon-lg"></i>&nbsp;请填写支付密码',
+							'maxlength' : '<i class="icon icon-attention icon-lg"></i>&nbsp;密码最多为{0}个字符',
+							'minlength' : '<i class="icon icon-attention icon-lg"></i>&nbsp;密码最少为{0}个字符',
+							'digits':'<i class="icon icon-attention icon-lg"></i>&nbsp;密码只能为数字',
+							'numPassword' : '<i class="icon icon-attention icon-lg"></i>&nbsp;连号不可用，相同数字不可用（如：123456，11111）',
+							'echoNum' :'<i class="icon icon-attention icon-lg"></i>&nbsp;连号不可用，相同数字不可用（如：123456，11111）'		
+						}
+					},
+					errorPlacement : function(error, element) {
+						element.closest('div[data-error="i_error"]').append(error);
+					},	
+					submitHandler : function(form){
+						var _form = $(form);
+						form.submit();
+
+					}
+				});
+				
+var payPassword = $("#payPassword_container"),
+    _this = payPassword.find('i'),	
+	k=0,j=0,
+	password = '' ,
+	_cardwrap = $('#cardwrap');
+	//点击隐藏的input密码框,在6个显示的密码框的第一个框显示光标
+	payPassword.on('focus',"input[name='payPassword_rsainput']",function(){
+	
+		var _this = payPassword.find('i');
+		if(payPassword.attr('data-busy') === '0'){ 
+		//在第一个密码框中添加光标样式
+		   _this.eq(k).addClass("active");
+		   _cardwrap.css('visibility','visible');
+		   payPassword.attr('data-busy','1');
+		}
+		
+	});	
+	//change时去除输入框的高亮，用户再次输入密码时需再次点击
+	payPassword.on('change',"input[name='payPassword_rsainput']",function(){
+		_cardwrap.css('visibility','hidden');
+		_this.eq(k).removeClass("active");
+		payPassword.attr('data-busy','0');
+	}).on('blur',"input[name='payPassword_rsainput']",function(){
+		
+		_cardwrap.css('visibility','hidden');
+		_this.eq(k).removeClass("active");					
+		payPassword.attr('data-busy','0');
+		
+	});
+	
+	//使用keyup事件，绑定键盘上的数字按键和backspace按键
+	payPassword.on('keyup',"input[name='payPassword_rsainput']",function(e){
+	
+	var  e = (e) ? e : window.event;
+	
+	//键盘上的数字键按下才可以输入
+	if(e.keyCode == 8 || (e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105)){
+			k = this.value.length;//输入框里面的密码长度
+			l = _this.size();//6
+			
+			for(;l--;){
+			
+			//输入到第几个密码框，第几个密码框就显示高亮和光标（在输入框内有2个数字密码，第三个密码框要显示高亮和光标，之前的显示黑点后面的显示空白，输入和删除都一样）
+				if(l === k){
+					_this.eq(l).addClass("active");
+					_this.eq(l).find('b').css('visibility','hidden');
+					
+				}else{
+					_this.eq(l).removeClass("active");
+					_this.eq(l).find('b').css('visibility', l < k ? 'visible' : 'hidden');
+					
+				}				
+			
+			if(k === 6){
+				j = 5;
+			}else{
+				j = k;
+			}
+			$('#cardwrap').css('left',j*30+'px');
+		
+			}
+		}else{
+		//输入其他字符，直接清空
+			var _val = this.value;
+			this.value = _val.replace(/\D/g,'');
+		}
+	});	
+	
+</script>	
+</body>
+</html>
